@@ -1,6 +1,6 @@
 <?php
 
-namespace Tddbc;
+namespace Poker;
 
 class Poker
 {

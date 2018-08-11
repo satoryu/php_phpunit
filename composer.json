@@ -20,6 +20,10 @@
           "Tddbc": [
             "src/",
             "tests/"
+          ],
+          "Poker": [
+              "src/",
+              "tests/"
           ]
         }
     }

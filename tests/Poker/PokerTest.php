@@ -1,16 +1,16 @@
 <?php
-namespace Tddbc;
+namespace Poker;
 
 use PHPUnit\Framework\TestCase;
-use Tddbc\Poker;
+use Poker\Poker;
 
-class PorkerTest extends TestCase
+class PokerTest extends TestCase
 {
     private $porker;
 
     public function setUp()
     {
-        $this->porker = new Poker();
+        $this->poker = new Poker();
     }
 
     /**
