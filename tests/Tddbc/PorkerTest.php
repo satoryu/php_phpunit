@@ -1,10 +1,18 @@
 <?php
-namespace Porker;
+namespace Tddbc;
 
 use PHPUnit\Framework\TestCase;
+use Tddbc\Poker;
 
 class PorkerTest extends TestCase
 {
+    private $porker;
+
+    public function setUp()
+    {
+        $this->porker = new Poker();
+    }
+
     /**
     * @test
     */
