@@ -18,6 +18,14 @@ class PokerTest extends TestCase
     */
     public function isOnePair()
     {
-        $this->assertEquals(true, true);
+        $cards = array(
+            ['Heart', 'A'],
+            ['Diamond', '2'],
+            ['Club', 'A'],
+            ['Spade', '3'],
+            ['Spade', '4']
+        );
+
+        $this->assertEquals(true, $this->poker->isOnePair($cards));
     }
 }
