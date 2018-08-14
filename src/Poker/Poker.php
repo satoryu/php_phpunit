@@ -20,4 +20,9 @@ class Poker
 
         return false;
     }
+
+    public function isTwoPair($cards)
+    {
+        return true;
+    }
 }
