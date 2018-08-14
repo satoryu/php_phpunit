@@ -25,7 +25,15 @@ class PokerTest extends TestCase
             ['Spade', '3'],
             ['Spade', '4']
         );
-
         $this->assertEquals(true, $this->poker->isOnePair($cards));
+
+        $cards = array(
+            ['Heart', 'A'],
+            ['Diamond', '2'],
+            ['Club', '5'],
+            ['Spade', '3'],
+            ['Spade', '4']
+        );
+        $this->assertEquals(false, $this->poker->isOnePair($cards));
     }
 }
