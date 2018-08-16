@@ -2,15 +2,10 @@
 
 namespace Poker;
 
-class TwoPair
+use Poker\Hand;
+
+class TwoPair extends Hand
 {
-    private $cards;
-
-    public function __construct($cards)
-    {
-        $this->cards = $cards;
-    }
-
     public function match()
     {
         $pairs = array();
@@ -28,7 +23,7 @@ class TwoPair
         $num_of_pairs = 0;
         foreach ($pairs as $number => $num) {
             if ($num >= 2)
-                $num_of_pairs++;
+               $num_of_pairs++;
         }
 
         if ($num_of_pairs >= 2)

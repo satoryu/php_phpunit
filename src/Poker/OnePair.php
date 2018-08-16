@@ -2,15 +2,10 @@
 
 namespace Poker;
 
-class OnePair
+use Poker\Hand;
+
+class OnePair extends Hand
 {
-    private $cards = array();
-
-    public function __construct($cards)
-    {
-        $this->cards = $cards;
-    }
-
     public function match()
     {
         $pairs = array();
