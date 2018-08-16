@@ -9,14 +9,14 @@
 
 ## セットアップ
 
-### リポジトリを取得する
+### リポジトリを取得する
 
 ```sh
 git clone git@github.com:satoryu/php_phpunit.git
 cd php_phpunit
 ```
 
-### 必要なパッケージをインストール
+### 必要なパッケージをインストール
 
 ```sh
 composer install
