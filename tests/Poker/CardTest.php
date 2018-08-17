@@ -16,5 +16,6 @@ class CardTest extends TestCase
         $card = new Card('Heart', 1);
 
         $this->assertEquals('Heart', $card->getSuit());
+        $this->assertEquals(1, $card->getRank());
     }
 }
