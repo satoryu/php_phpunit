@@ -2,7 +2,7 @@
 
 namespace Poker;
 
-abstract class Hand
+abstract class PokerHand
 {
     protected $cards;
 

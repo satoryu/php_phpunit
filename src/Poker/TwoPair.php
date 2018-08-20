@@ -4,7 +4,7 @@ namespace Poker;
 
 use Poker\Hand;
 
-class TwoPair extends Hand
+class TwoPair extends PokerHand
 {
     public function match()
     {
