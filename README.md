@@ -42,7 +42,7 @@ $
 
 ## Appendix
 
-* [PHPUnit マニュアル – 付録A アサーション](https://phpunit.de/manual/6.5/ja/appendixes.assertions.html)
+* [PHPUnit マニュアル – 付録A アサーション](https://phpunit.de/manual/6.3/ja/appendixes.assertions.html)
 
 ## ライセンス
 
