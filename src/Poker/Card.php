@@ -22,4 +22,9 @@ class Card
     {
         return $this->rank;
     }
+
+    public function isSameSuit(Card $card)
+    {
+        return ($this->suit == $card->getSuit());
+    }
 }
