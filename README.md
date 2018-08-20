@@ -40,6 +40,10 @@ $
 
 のようにテストが正常終了すればOKです。
 
+## Appendix
+
+* [PHPUnit マニュアル – 付録A アサーション](https://phpunit.de/manual/6.5/ja/appendixes.assertions.html)
+
 ## ライセンス
 
 三条項BSDライセンス (3-clause BSD license)です。
