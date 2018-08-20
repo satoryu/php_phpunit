@@ -12,4 +12,12 @@ class PokerTest extends TestCase
     {
         $this->poker = new Poker();
     }
+
+    /**
+     * @test
+     */
+    public function play()
+    {
+        $this->markTestIncomplete();
+    }
 }
